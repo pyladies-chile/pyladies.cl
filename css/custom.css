@@ -1,0 +1,16 @@
+.grow{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.grow:hover{
+    transform: scale3d(1.5, 1.5, 0.3);
+        -webkit-transform: scale3d(1.5, 1.5, 0.3);
+        -moz-transform: scale3d(1.5, 1.5, 0.3);
+}
+
+.white-box {
+    background-color: rgba(255, 255, 255, 0.7);
+    /*background-color: rgba(0, 86, 170, 0.3);*/
+    padding: 4%;
+}
